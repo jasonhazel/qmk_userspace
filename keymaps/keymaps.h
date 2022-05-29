@@ -22,6 +22,6 @@ enum layers {
     #define LAYOUT_BASE LAYOUT_split_3x5_2
 #endif
 
-#ifdef LAYOUT_BASE
+#ifndef LAYOUT_BASE
     #define LAYOUT_WRAPPER(...) LAYOUT_BASE(__VA_ARGS__)
 #endif

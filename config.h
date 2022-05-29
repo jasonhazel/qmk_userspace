@@ -26,7 +26,10 @@
     #endif
 
     #ifdef POINTING_DEVICE_ENABLE
-      #define SPLIT_POINTING_ENABLE
+        #define SPLIT_POINTING_ENABLE
+        #if !defined(POINTING_DEVICE_LEFT) && !defined(POINTING_DEVICE_LEFT) && !defined(POINTING_DEVICE_RIGHT)
+            #define POINTING_DEVICE_COMBINED
+        #endif
     #endif
 #endif
 

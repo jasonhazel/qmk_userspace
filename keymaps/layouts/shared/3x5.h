@@ -1,4 +1,4 @@
-#prama once
+#pragma once
 #include "jasonhazel.h"
 
 #define SHARED_QWERTY       KC_QESC,  KC_W,     KC_E,     KC_R,    KC_T,            KC_Y,     KC_U,     KC_I,     KC_O,     KC_P,       \

@@ -5,6 +5,12 @@
 
     uint16_t keycount = 0;
     bool process_record_user_keycounter(uint16_t keycode, keyrecord_t *record) {
+        switch(keycode) {
+            case KEYCOUNTER_RESET:
+                keycount = 0;
+                return false;
+        }
+
         if (record->event.pressed) {
             if (keycount == 32768) keycount = 0;
             keycount++;
@@ -20,5 +26,7 @@
           return true;
         }
     #endif
+
+
 
 #endif

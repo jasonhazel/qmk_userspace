@@ -13,12 +13,12 @@ enum layers {
  };
 
 #ifdef LAYOUT_split_3x5_3
-    #include "keymaps/split_3x5_3.h"
+    #include "layouts/split_3x5_3.h"
     #define LAYOUT_BASE LAYOUT_split_3x5_3
 #endif
 
 #ifdef LAYOUT_split_3x5_2
-    #include "keymaps/split_3x5_2.h"
+    #include "layouts/split_3x5_2.h"
     #define LAYOUT_BASE LAYOUT_split_3x5_2
 #endif
 

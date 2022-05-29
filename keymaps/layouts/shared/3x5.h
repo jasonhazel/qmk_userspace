@@ -17,4 +17,4 @@
 
 #define SHARED_NAVIGATION   KC_ESC,   KC_NO,    KC_NO,    KC_NO,    KC_NO,         KC_NO,     KC_HOME,  KC_UP,    KC_END,   KC_BSPC,    \
                             KC_TAB,   KC_NO,    KC_NO,    KC_NO,    KC_NO,         KC_NO,     KC_LEFT,  KC_DOWN,  KC_RIGHT, KC_ENT,     \
-                            KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,         KC_NO,     KC_MPRV,  KC_MPLY,  KC_MNXT,  KC_DEL,     
+                            KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,         KC_NO,     KC_MPRV,  KC_MPLY,  KC_MNXT,  KC_DEL

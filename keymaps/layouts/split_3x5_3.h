@@ -19,12 +19,12 @@
 #define KM_QWERTY           SHARED_QWERTY,    \
                             KC_OCTL,  OSL_SYM, KC_OSFT,         KC_SPC,   OSL_NUM,  KC_ENT  
 
-#define KM_SYMBOLS          SHARED_SYMBOLS    \
+#define KM_SYMBOLS          SHARED_SYMBOLS,    \
                             KC_TRNS,  KC_TRNS,  KC_TRNS,        KC_TRNS,  KC_TRNS,  KC_ENT
 
-#define KM_NUMBERS          SHARED_NUMBERS    \
+#define KM_NUMBERS          SHARED_NUMBERS,    \
                             KC_TRNS,  KC_TRNS, KC_TRNS,         KC_TRNS,   KC_TRNS,  KC_ENT  
 
-#define KM_NAVIGATION       SHARED_NAVIGATION \
+#define KM_NAVIGATION       SHARED_NAVIGATION, \
                             KC_TRNS,  KC_TRNS, KC_TRNS,        KC_TRNS,   KC_TRNS,  KC_ENT  
 

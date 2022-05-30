@@ -20,9 +20,9 @@ SRC += keyoverrides/keyoverrides.c
 SRC += keymaps/keymaps.c
 
 
-ifdef POINTING_DEVICE_ENABLE
-		SRC += pointing/pointing.c
-endif
+# ifdef POINTING_DEVICE_ENABLE
+# 		SRC += pointing/pointing.c
+# endif
 
 ifdef OLED_ENABLE
 		SRC += oled/oled.c

@@ -7,7 +7,7 @@
 #include "combos/combos.h"
 #include "keyoverrides/keyoverrides.h"
 
-#ifdef POINTING_DEVICE_ENABLE
+#ifdef FALSE
     #include "pointing/pointing.h"
 #endif
 

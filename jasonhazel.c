@@ -23,7 +23,7 @@
 #endif
 
 __attribute__((weak)) void suspend_power_down_user(void) {
-    #ifdef POINTING_DEVICE_ENABLE
+    #ifdef FALSE
         suspend_power_down_user_pointing();
     #endif
 
@@ -33,7 +33,7 @@ __attribute__((weak)) void suspend_power_down_user(void) {
 }
 
 __attribute__((weak)) void suspend_wakeup_init_user(void) {
-    #ifdef POINTING_DEVICE_ENABLE
+    #ifdef FALSE
         suspend_wakeup_init_user_pointing();
     #endif
     #ifdef OLED_ENABLE
@@ -42,12 +42,12 @@ __attribute__((weak)) void suspend_wakeup_init_user(void) {
 }
 
 __attribute__((weak)) void matrix_scan_user(void) {
-    #ifdef POINTING_DEVICE_ENABLE
+    #ifdef FALSE
         matrix_scan_user_pointing();
     #endif
 }
 __attribute__((weak)) bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-    #ifdef POINTING_DEVICE_ENABLE
+    #ifdef FALSE
         process_record_user_pointing(keycode, record);
     #endif
 
@@ -62,12 +62,12 @@ __attribute__((weak)) bool process_record_user(uint16_t keycode, keyrecord_t *re
 }
 
 __attribute__((weak)) void keyboard_post_init_user(void) {
-    #ifdef POINTING_DEVICE_ENABLE
+    #ifdef FALSE
         keyboard_post_init_user_pointing();
     #endif
 }
 
-#ifdef POINTING_DEVICE_ENABLE
+#ifdef FALSE
     __attribute__((weak)) report_mouse_t pointing_device_task_user(report_mouse_t mouse_report) {
         #ifdef OLED_ENABLE
             if (mouse_report.x != 0 || mouse_report.y != 0) {

@@ -26,7 +26,4 @@
           return true;
         }
     #endif
-
-
-
 #endif

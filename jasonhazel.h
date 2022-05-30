@@ -3,18 +3,9 @@
 
 
 #include "keymaps/keymaps.h"
-
-#ifdef TAP_DANCE_ENABLE
-    #include "tapdances/tapdances.h"
-#endif
-
-#ifdef COMBO_ENABLE
-    #include "combos/combos.h"
-#endif
-
-#ifdef KEY_OVERRIDE_ENABLE
-    #include "keyoverrides/keyoverrides.h"
-#endif
+#include "tapdances/tapdances.h"
+#include "combos/combos.h"
+#include "keyoverrides/keyoverrides.h"
 
 #ifdef POINTING_DEVICE_ENABLE
     #include "pointing/pointing.h"

@@ -3,13 +3,13 @@
 
 /*
  *
- * ,----------------------------------.           ,----------------------------------.
- * |   Q  |   W  |   E  |   R  |   T  |           |   Y  |   U  |   I  |   O  |   P  |
- * |------+------+------+------+------|           |------+------+------+------+------|
- * |   A  |   S  |   D  |   F  |   G  |           |   H  |   J  |   K  |   L  |   ;  |
- * |------+------+------+------+------|           |------+------+------+------+------|
- * |   Z  |   X  |   C  |   V  |   B  |           |   N  |   M  |   ,  |   .  |   /  |
- * `----------------------------------'           `----------------------------------'
+ *                                  ,----------------------------------.           ,----------------------------------.
+ *                                  |   Q  |   W  |   E  |   R  |   T  |           |   Y  |   U  |   I  |   O  |   P  |
+ *                                  |------+------+------+------+------|           |------+------+------+------+------|
+ *                                  |   A  |   S  |   D  |   F  |   G  |           |   H  |   J  |   K  |   L  |   ;  |
+ *                                  |------+------+------+------+------|           |------+------+------+------+------|
+ *                                  |   Z  |   X  |   C  |   V  |   B  |           |   N  |   M  |   ,  |   .  |   /  |
+ *                                  `----------------------------------'           `----------------------------------'
  */
 
 #define SHARED_QWERTY       KC_QESC,  KC_W,     KC_E,     KC_R,    KC_T,            KC_Y,     KC_U,     KC_I,     KC_O,     KC_P,       \
@@ -17,7 +17,7 @@
                             KC_Z,     KC_GUIX,  KC_ALTC,  KC_V,    KC_B,            KC_N,     KC_M,     KC_COMM,  KC_DOT,   KC_SLSH
 
 
-#define SHARED_SYMBOLS      KC_EXLM,  KC_AT,    KC_HASH,  KC_DLR,   KC_PERC,        KC_CIRC,  KC_AMPR,  KC_ASTR,  KC_NO,    KC_NO,      \
+#define SHARED_SYMBOLS      KC_EXLM,  KC_AT,    KC_HASH,  KC_DLR,   KC_PERC,        KC_CIRC,  KC_AMPR,  KC_ASTR,  KC_NO,    KC_PIPE,    \
                             KC_GRV,   KC_NO,    KC_NO,    KC_UNDS,  KC_MINS,        KC_EQL,   KC_SBKT,  KC_CBKT,  KC_PARN,  KC_BSLASH,  \
                             KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,          KC_PLUS,  KC_LTGT,  KC_COLN,  KC_DOT,   KC_SCLN
 

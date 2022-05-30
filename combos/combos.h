@@ -7,9 +7,8 @@
 #endif
 enum combo_events {
   COMBO_NAVIGATION,
-  #ifdef KEYCOUNTER_ENABLE
-    COMBO_KEYCOUNTER_RESET,
-  #endif
+  COMBO_KEYCOUNTER_RESET,
+  COMBO_RESET,
   COMBO_LENGTH
 };
 

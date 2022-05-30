@@ -1,0 +1,1 @@
+my take on how to share a keymap across multiple keyboards with varying layouts. it is far from all encompassing, but works so far.  still need to find a way to share more stuff between 

@@ -13,6 +13,6 @@
     combo_t key_combos[] = {
       [COMBO_NAVIGATION]  = COMBO(combo_navigation, OSL(_NAVIGATION)),
       [COMBO_KEYCOUNTER_RESET] = COMBO(combo_keycounter_reset, KEYCOUNTER_RESET),
-      [COMBO_RESET] = COMBO(combo_reset, RESET)
+      [COMBO_RESET] = COMBO(combo_reset, QK_BOOT)
     };
 #endif

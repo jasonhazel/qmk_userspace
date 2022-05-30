@@ -8,6 +8,8 @@
 #define ONESHOT_TIMEOUT 500
 #define COMBO_TERM 100
 
+#define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
+
 // disable shit
 #define NO_MUSIC_MODE
 

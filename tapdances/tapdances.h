@@ -17,7 +17,7 @@
     #define KC_PARN   TD(TD_PARN)
     #define KC_LTGT   TD(TD_LTGT)
 #else
-    #define KC_QESC   KC_TRNS
+    #define KC_QESC   KC_Q
     #define KC_SBKT   KC_TRNS
     #define KC_CBKT   KC_TRNS
     #define KC_PARN   KC_TRNS

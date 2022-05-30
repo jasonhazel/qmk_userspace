@@ -19,7 +19,7 @@
 
 #define SHARED_SYMBOLS      KC_EXLM,  KC_AT,    KC_HASH,  KC_DLR,   KC_PERC,        KC_CIRC,  KC_AMPR,  KC_ASTR,  KC_NO,    KC_NO,      \
                             KC_GRV,   KC_NO,    KC_NO,    KC_UNDS,  KC_MINS,        KC_EQL,   KC_SBKT,  KC_CBKT,  KC_PARN,  KC_BSLASH,  \
-                            KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,          KC_PLUS,  KC_NO,    KC_COLN,  KC_DOT,   KC_SCLN
+                            KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,          KC_PLUS,  KC_LTGT,  KC_COLN,  KC_DOT,   KC_SCLN
 
 
 #define SHARED_NUMBERS      KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,          KC_F6,     KC_F7,    KC_F8,    KC_F9,    KC_F10,    \

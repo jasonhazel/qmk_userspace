@@ -4,7 +4,6 @@ KEY_OVERRIDE_ENABLE		= yes
 COMBO_ENABLE 					= yes
 TAP_DANCE_ENABLE 			= yes
 KEYCOUNTER_ENABLE			= yes
-NKRO_ENABLE 					= yes
 
 # disable stuff to save space
 GRAVE_ESC_ENABLE 			= no
